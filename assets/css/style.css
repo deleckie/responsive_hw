@@ -239,3 +239,124 @@ input[type=submit] {
 }
 
 /*media Quary*/
+
+@media (max-width: 980px){
+  #main-container{
+    width: 40%;
+    margin:0 0 0 80px;
+  }
+
+  #logo {
+    float: left;
+    margin:0 0 0px 70px;
+    text-align: center;
+  }
+
+  .auth-image {
+    float: left;
+    width: 330px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  .sidebar {
+    float: right;
+    flex-wrap: wrap;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+  }
+
+  nav {
+    float: right;
+
+    width: 330px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 130px;
+  }
+}
+
+@media (max-width: 768px){
+  #main-container{
+    width: 100%;
+    margin:0 0 0 80px;
+  }
+
+  #logo {
+    float: left;
+    margin:0 0 0px 40px;
+    text-align: center;
+  }
+
+  .auth-image {
+    float: left;
+    width: 330px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+
+  }
+
+  .sidebar {
+    float: left;
+    flex-wrap: wrap;
+    max-width: 650px;
+    padding: 30px;
+    margin-bottom: 40px    
+  }
+
+  nav {
+    float: right;
+
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 640px){
+  #main-container{
+    width: 100%;
+    margin:0 0 0 80px;
+  }
+
+  #logo {
+    float: left;
+    margin:0 0 0px 40px;
+    text-align: center;
+  }
+
+  .auth-image {
+    float: left;
+    width: 580px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+
+  }
+
+  .sidebar {
+    float: left;
+    flex-wrap: wrap;
+    max-width: 650px;
+    padding: 300px;
+    margin-bottom: 40px    
+  }
+
+  nav {
+    float: right;
+
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}
+
+/*widths = 980xp 768px 640px*/
+
+
